@@ -1,0 +1,121 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.stay-focused h1 {
+    font-family: 'Yeseva One';
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.stay-focused {
+    border-left: 3px solid tomato;
+    padding-left: 10px;
+}
+
+.orange-color {
+    color: orange;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.half-width {
+    width: 50%;
+
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.btn-orange {
+    background-image: linear-gradient(orange, tomato);
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.my-mission {
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.missions-title,
+.corona-title {
+    text-align: center;
+}
+
+.mission {
+    padding: 20px;
+    background-color: gainsboro;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.my-mission img {
+    width: 50%;
+}
+
+.mission-bg {
+    background-color: #4f9da623;
+}
+
+.vission-bg {
+    background-color: #ff595929;
+}
+
+.goals-bg {
+    background-color: #fff4d697;
+}
+
+.header1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.image-part {
+    width: 40%;
+    margin-right: 50px;
+}
+
+.image-part img {
+    width: 100%;
+}
+
+.text-part {
+    width: 60%;
+    padding-right: 100px;
+    text-align: justify;
+}
+
+footer {
+    background-color: black;
+    font-family: 'Yeseva One';
+    text-align: center;
+    color: white;
+}
