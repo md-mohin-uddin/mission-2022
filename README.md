@@ -1,43 +1,49 @@
-# mission-2022
 # Office Lunch Management System
 
-Welcome to the Office Lunch Management System! This system is designed to facilitate menu management and employee meal selection for office lunches.
+Welcome to the Office Lunch Management System! This system simplifies the process of managing office lunch menus and streamlines meal selection for employees.
 
 ## Technologies Used
 
 - **Backend**:
-  - Node.js with Express.js
-  - MySQL
+  - Node.js with Express.js for server-side logic
+  - MySQL for the database
 
 - **Frontend**:
-  - React.js
+  - React.js for the user interface
 
 ## Features
 
-- **Admin**:
-  - Add, edit, and delete menu items
+### Admin:
+- **Menu Management**:
+  - Add new menu items
+  - Edit existing menu items
+  - Delete menu items
+- **Employee Meal Tracking**:
   - View employees' meal choices
 
-- **Employee**:
-  - View menu items
-  - Select meal items
+### Employee:
+- **Menu Viewing**:
+  - Browse available menu items
+- **Meal Selection**:
+  - Select desired meal items
 
 ## Setup Instructions
 
 ### Backend (Node.js with Express.js and MySQL)
 
-1. Clone this repository.
-2. Navigate to the `backend` directory.
-3. Run `npm install`.
-4. Configure your MySQL connection in `config.js`.
-5. Run migrations: `npm run migrate`.
-6. Start the server: `npm start`.
+1. **Clone Repository**: `git clone <repository-url>`
+2. **Navigate to Backend Directory**: `cd backend`
+3. **Install Dependencies**: `npm install`
+4. **Database Configuration**:
+   - Configure MySQL connection in `config.js`
+5. **Run Migrations**: `npm run migrate`
+6. **Start Server**: `npm start`
 
 ### Frontend (React.js)
 
-1. Navigate to the `frontend` directory.
-2. Run `npm install`.
-3. Start the development server: `npm start`.
+1. **Navigate to Frontend Directory**: `cd frontend`
+2. **Install Dependencies**: `npm install`
+3. **Start Development Server**: `npm start`
 
 ## Running the Project
 
